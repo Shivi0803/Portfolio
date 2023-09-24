@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive personal portfolio </title>
+
+        <!--box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       
+        <!--custom css-->
+        <link rel="stylesheet" href="portfolio/style.css">
+    </head>
+    <body>
+        <!--header design-->
+        <header class="header">
+            <a href="" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!--homesection design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, it's me</h3>
+                <h1> Shivani Jha</h1>
+                <h3>And i am <span class="multiple-text"></span></h3>
+                <p>I am a creative frontend web developer who enjoys crafting innovative and engaging websites through code and design.</p>
+                <div class="social-media">
+                    <a href = "mailto: shivi.shivani0803@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/shivi0803/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    
+                </div>
+                <a href="" class="btn">Download CV</a>
+
+             </div>
+             <div class="home-img">
+                <img src= "my photo.jpg" alt="image">
+               
+             </div>
+        </section>
+        <!--about section design-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="my photo.jpg"alt="my image">
+            </div>
+            <div class="about-content">
+                <h2 class="heading"> About <span>Me</span></h2>
+                <h3>Hi, I'm Here To Help Your Next Project</h3>
+                <p>I'm Shivani, Based in UP, INDIA. <br> I'm currently pursuing my master's in Science and in my previous semester break I came to know about web design, I found it very interesting where i can showcase my creative side to design and my logical side to code Because I’ve always been someone who has both a creative and a logical side. I am always eager to learn new skills and improve my craft. 
+                    <br>
+                    <span>"I believe that art is a way of communicating with the world and sharing my emotions and ideas"</span>
+                </p>
+                <div class="readmore">
+                    As a bonus, I have been involved in designing and editing since my childhood, and I got an award for a painting at the first place at the district level in my school.
+                        I also have a keen eye for colors, shapes, and textures, and love to experiment with different styles and techniques.
+                        When I'm not pushing pixels, you'll find me reading, cooking, or playing games. I enjoy making beautiful and original artwork, whether it’s on paper, canvas, or digital platforms. <br>
+                        <br>
+                        <br>
+                        
+                    </p> 
+                </div>   
+                
+                    
+                   
+                    
+                <a href="#" class="btn" id="button">Read More</a>
+            </div>
+        </section>
+        <!--services section design-->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-paint'></i>
+                    <h3>Skills</h3>
+                    <p class="skill">REACT | JAVASCRIPT | PHP | DBMS | BOOTSTRAP  CSS | HTML | UI/UX | PYTHON</p>
+                   <!--<a href="#" class="btn">Read More</a>-->
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Tools</h3>
+                    <p class="tools">FIGMA | WEB FLOW | VS CODE | PICSART | PHONTO | CANVA</p>
+                   <!-- <a href="#" class="btn">Read More</a>-->
+                </div>
+
+            </div>
+        </section>
+
+        <!--portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span> Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="project1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod.</p>
+                        <a href="" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="project2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="project3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="project4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quod.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section design-->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="process-index.php" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="name">
+                    <input type="email" placeholder="Email Address" name="email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" name="mobile number">
+                    <input type="text" placeholder="Email Subject" name="email subject">
+                </div>
+                <textarea  id="message" cols="30" rows="10" placeholder="Your Messsage" name="message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!--footer section design-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Shivani Jha | All Rights Reserved</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+            </div>
+        </footer>
+        <!--jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        
+        <!--scroll reveal-->
+        <script type="text/javascript"  src="https://unpkg.com/scrollreveal"></script>
+
+        <!--typed js -->
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- custom js-->
+        <script src="script.js"></script>
+    </body>
+</html>
