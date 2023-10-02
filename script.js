@@ -67,6 +67,20 @@ $(document).ready(function(){
         $(this).text(moreLessButton);
         $(this).parent(".about-content").find(".readmore").toggle();
         $(this).parent(".about-content").find(".about-content").toggle();
+        return false;
     });
 });
+
+var crsr = document.querySelector(".cursor")
+var blur = document.querySelector(".cursor-blur")
+
+document.addEventListener("mousemove",function(dets){
+    crsr.style.left = dets.x+"px"
+    crsr.style.top = dets.y+"px"
+})
+
+document.addEventListener("mousemove",function(dets){
+    blur.style.left = dets.x - 150+"px"
+    blur.style.top = dets.y - 150 +"px"
+})
 
